@@ -31,21 +31,24 @@ header{
 
 /* DEBUG */
 .debug .jumbotron,
-.debug .about,
-.debug .portfolio,
-.debug form,
 .debug .footer_top,
 .debug .footer_bottom{
     height: 100px;
 }
 
 .debug .portfolio,
-.debug form{
+.debug .contact_me{
     background-color: red;
 }
 
 .debug .test{
     background-color: yellow;
+    border: 4px solid black;
+    height: 100px;
+}
+
+.debug .test2{
+    background-color: lightgreen;
     border: 4px solid black;
     height: 100px;
 }
