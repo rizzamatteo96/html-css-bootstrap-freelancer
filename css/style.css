@@ -36,10 +36,16 @@ header{
 .debug form,
 .debug .footer_top,
 .debug .footer_bottom{
-    height: 300px;
+    height: 100px;
 }
 
 .debug .portfolio,
 .debug form{
     background-color: red;
+}
+
+.debug .test{
+    background-color: yellow;
+    border: 4px solid black;
+    height: 100px;
 }
