@@ -1,7 +1,12 @@
+/* COMMONS */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
 }
 
 /* HEADER */
@@ -15,6 +20,18 @@ header{
 .about{
     background-color: #1abc9c;
 }
+
+.jumbotron img{
+    height: 200px;
+    margin: 30px 0 10px;
+}
+
+.portfolio .box_img,
+.portfolio .box_img img{
+    border-radius: 10px;
+    width: 100%;
+}
+
 
 /* FOOTER */
 .footer_top{
@@ -30,7 +47,7 @@ header{
 
 
 /* DEBUG */
-.debug .jumbotron,
+/* .debug .jumbotron, */
 .debug .footer_top,
 .debug .footer_bottom{
     height: 100px;
